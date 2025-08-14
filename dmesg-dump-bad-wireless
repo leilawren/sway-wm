@@ -1,0 +1,124 @@
+[   20.281603] intel_rapl_common: Found RAPL domain package
+[   20.281608] intel_rapl_common: Found RAPL domain core
+[   20.281610] intel_rapl_common: Found RAPL domain uncore
+[   20.281612] intel_rapl_common: Found RAPL domain dram
+[   20.287135] systemd-journald[722]: Received client request to flush runtime journal.
+[   20.305478] Bluetooth: hci0: BCM: chip id 102 build 0729
+[   20.306471] Bluetooth: hci0: BCM: product 05ac:8290
+[   20.307467] Bluetooth: hci0: BCM: features 0x2f
+[   20.323545] Bluetooth: hci0: BCM20703A1 Generic USB UHE Apple 20Mhz fcbga_X87
+[   20.331703] brcmfmac: brcmf_fw_alloc_request: using brcm/brcmfmac43602-pcie for chip BCM43602/1
+[   20.337199] brcmfmac 0000:03:00.0: Direct firmware load for brcm/brcmfmac43602-pcie.Apple Inc.-MacBookPro12,1.bin failed with error -2
+[   20.346150] brcmfmac 0000:03:00.0: Direct firmware load for brcm/brcmfmac43602-pcie.txt failed with error -2
+[   20.352582] brcmfmac 0000:03:00.0: Direct firmware load for brcm/brcmfmac43602-pcie.clm_blob failed with error -2
+[   20.352621] brcmfmac 0000:03:00.0: Direct firmware load for brcm/brcmfmac43602-pcie.txcap_blob failed with error -2
+[   20.857643] brcmfmac: brcmf_c_process_clm_blob: no clm_blob available (err=-2), device may have limited channels available
+[   20.857647] brcmfmac: brcmf_c_process_txcap_blob: no txcap_blob available (err=-2)
+[   20.858386] brcmfmac: brcmf_c_preinit_dcmds: Firmware: BCM43602/1 wl0: Nov 10 2015 06:38:10 version 7.35.177.61 (r598657) FWID 01-ea662a8c
+[   20.921459] brcmfmac 0000:03:00.0 wlp3s0: renamed from wlan0
+[   85.874130] ieee80211 phy0: brcmf_inetaddr_changed: fail to get arp ip table err:-52
+[  380.520650] ieee80211 phy0: brcmf_inetaddr_changed: fail to get arp ip table err:-52
+[  381.096853] PM: suspend entry (deep)
+[  381.128437] Filesystems sync: 0.031 seconds
+[  381.135583] Freezing user space processes
+[  381.136632] Freezing user space processes completed (elapsed 0.001 seconds)
+[  381.136639] OOM killer disabled.
+[  381.136640] Freezing remaining freezable tasks
+[  381.137619] Freezing remaining freezable tasks completed (elapsed 0.000 seconds)
+[  381.137676] printk: Suspending console(s) (use no_console_suspend to debug)
+[  381.150669] sd 0:0:0:0: [sda] Synchronizing SCSI cache
+[  381.150955] ata1.00: Entering standby power mode
+[  381.663465] ACPI: EC: interrupt blocked
+[  381.738295] ACPI: PM: Preparing to enter system sleep state S3
+[  381.840017] ACPI: EC: event blocked
+[  381.840018] ACPI: EC: EC stopped
+[  381.840019] ACPI: PM: Saving platform NVS memory
+[  381.840052] Disabling non-boot CPUs ...
+[  381.841639] smpboot: CPU 3 is now offline
+[  381.843504] smpboot: CPU 2 is now offline
+[  381.845228] smpboot: CPU 1 is now offline
+[  381.846188] ACPI: PM: Low-level resume complete
+[  381.846220] ACPI: EC: EC started
+[  381.846221] ACPI: PM: Restoring platform NVS memory
+[  381.846896] Enabling non-boot CPUs ...
+[  381.847028] smpboot: Booting Node 0 Processor 1 APIC 0x2
+[  381.901489] CPU1 is up
+[  381.901719] smpboot: Booting Node 0 Processor 2 APIC 0x1
+[  381.902909] CPU2 is up
+[  381.902961] smpboot: Booting Node 0 Processor 3 APIC 0x3
+[  381.954833] CPU3 is up
+[  381.956746] ACPI: PM: Waking up from system sleep state S3
+[  381.958498] ACPI: EC: interrupt unblocked
+[  383.038818] ACPI: EC: event unblocked
+[  383.360630] ata1: SATA link up 6.0 Gbps (SStatus 133 SControl 300)
+[  383.361145] ata1.00: unexpected _GTF length (8)
+[  383.361245] sd 0:0:0:0: [sda] Starting disk
+[  383.361707] ata1.00: unexpected _GTF length (8)
+[  383.361830] ata1.00: configured for UDMA/133
+[  383.705963] brcmfmac: brcmf_fw_alloc_request: using brcm/brcmfmac43602-pcie for chip BCM43602/1
+[  383.706025] brcmfmac 0000:03:00.0: Direct firmware load for brcm/brcmfmac43602-pcie.Apple Inc.-MacBookPro12,1.bin failed with error -2
+[  383.708273] brcmfmac 0000:03:00.0: Direct firmware load for brcm/brcmfmac43602-pcie.txt failed with error -2
+[  383.714782] brcmfmac 0000:03:00.0: Direct firmware load for brcm/brcmfmac43602-pcie.clm_blob failed with error -2
+[  383.714821] brcmfmac 0000:03:00.0: Direct firmware load for brcm/brcmfmac43602-pcie.txcap_blob failed with error -2
+[  384.212959] brcmfmac: brcmf_c_process_clm_blob: no clm_blob available (err=-2), device may have limited channels available
+[  384.212963] brcmfmac: brcmf_c_process_txcap_blob: no txcap_blob available (err=-2)
+[  384.213823] brcmfmac: brcmf_c_preinit_dcmds: Firmware: BCM43602/1 wl0: Nov 10 2015 06:38:10 version 7.35.177.61 (r598657) FWID 01-ea662a8c
+[  385.715670] OOM killer enabled.
+[  385.715673] Restarting tasks ... 
+[  385.715740] usb 2-3: USB disconnect, device number 2
+[  385.717196] done.
+[  385.717206] random: crng reseeded on system resumption
+[  385.717275] PM: suspend exit
+[  385.776443] brcmfmac 0000:03:00.0 wlp3s0: renamed from wlan0
+[  499.536537] PM: suspend entry (deep)
+[  499.571395] Filesystems sync: 0.034 seconds
+[  499.577281] Freezing user space processes
+[  499.578618] Freezing user space processes completed (elapsed 0.001 seconds)
+[  499.578623] OOM killer disabled.
+[  499.578625] Freezing remaining freezable tasks
+[  499.579754] Freezing remaining freezable tasks completed (elapsed 0.001 seconds)
+[  499.579812] printk: Suspending console(s) (use no_console_suspend to debug)
+[  499.588894] sd 0:0:0:0: [sda] Synchronizing SCSI cache
+[  499.589320] ata1.00: Entering standby power mode
+[  500.100996] ACPI: EC: interrupt blocked
+[  500.175804] ACPI: PM: Preparing to enter system sleep state S3
+[  500.277651] ACPI: EC: event blocked
+[  500.277653] ACPI: EC: EC stopped
+[  500.277654] ACPI: PM: Saving platform NVS memory
+[  500.277688] Disabling non-boot CPUs ...
+[  500.279073] smpboot: CPU 3 is now offline
+[  500.281373] smpboot: CPU 2 is now offline
+[  500.282908] smpboot: CPU 1 is now offline
+[  500.283865] ACPI: PM: Low-level resume complete
+[  500.283897] ACPI: EC: EC started
+[  500.283898] ACPI: PM: Restoring platform NVS memory
+[  500.284345] Enabling non-boot CPUs ...
+[  500.284460] smpboot: Booting Node 0 Processor 1 APIC 0x2
+[  500.341562] CPU1 is up
+[  500.341870] smpboot: Booting Node 0 Processor 2 APIC 0x1
+[  500.342883] CPU2 is up
+[  500.342942] smpboot: Booting Node 0 Processor 3 APIC 0x3
+[  500.392321] CPU3 is up
+[  500.394283] ACPI: PM: Waking up from system sleep state S3
+[  500.396032] ACPI: EC: interrupt unblocked
+[  501.476665] ACPI: EC: event unblocked
+[  501.797951] ata1: SATA link up 6.0 Gbps (SStatus 133 SControl 300)
+[  501.798443] ata1.00: unexpected _GTF length (8)
+[  501.798559] sd 0:0:0:0: [sda] Starting disk
+[  501.799069] ata1.00: unexpected _GTF length (8)
+[  501.799162] ata1.00: configured for UDMA/133
+[  502.151147] brcmfmac: brcmf_fw_alloc_request: using brcm/brcmfmac43602-pcie for chip BCM43602/1
+[  502.151195] brcmfmac 0000:03:00.0: Direct firmware load for brcm/brcmfmac43602-pcie.Apple Inc.-MacBookPro12,1.bin failed with error -2
+[  502.151592] OOM killer enabled.
+[  502.151594] Restarting tasks ... done.
+[  502.152840] random: crng reseeded on system resumption
+[  502.152857] PM: suspend exit
+[  502.155769] brcmfmac 0000:03:00.0: Direct firmware load for brcm/brcmfmac43602-pcie.txt failed with error -2
+[  502.162897] brcmfmac 0000:03:00.0: Direct firmware load for brcm/brcmfmac43602-pcie.clm_blob failed with error -2
+[  502.162956] brcmfmac 0000:03:00.0: Direct firmware load for brcm/brcmfmac43602-pcie.txcap_blob failed with error -2
+[  502.678914] brcmfmac: brcmf_c_process_clm_blob: no clm_blob available (err=-2), device may have limited channels available
+[  502.678919] brcmfmac: brcmf_c_process_txcap_blob: no txcap_blob available (err=-2)
+[  502.679667] brcmfmac: brcmf_c_preinit_dcmds: Firmware: BCM43602/1 wl0: Nov 10 2015 06:38:10 version 7.35.177.61 (r598657) FWID 01-ea662a8c
+[  502.741671] brcmfmac 0000:03:00.0 wlp3s0: renamed from wlan0
+[  541.694838] ieee80211 phy2: brcmf_inetaddr_changed: fail to get arp ip table err:-52
+[doggie@funnybook ~]$ 
