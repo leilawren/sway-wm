@@ -28,3 +28,9 @@ sudo cp /etc/sway/config ~/.config/sway/config
 Important for not getting really annoyed using sway. Read at least the frist paragraph of this wiki entry and install the following.
 https://wiki.archlinux.org/title/XDG_Desktop_Portal
 sudo pacman -S xdg-desktop-portal-wlr
+
+# dunst
+YOU NEED THIS, SILLY
+- sudo pacman -S install dunst
+- start in sway config file with line
+- exec dunst
