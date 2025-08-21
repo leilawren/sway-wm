@@ -34,3 +34,8 @@ YOU NEED THIS, SILLY
 - sudo pacman -S install dunst
 - start in sway config file with line
 - exec dunst
+
+# grim
+i guess i need grim for flameshot to work
+wayland based dependency listed alongside xdg-desktop-portal-wlr
+
